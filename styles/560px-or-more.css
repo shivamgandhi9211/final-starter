@@ -1,0 +1,38 @@
+
+
+@media (max-width:759px) {
+  #main-content {
+    flex-direction: column;
+  }
+  aside
+  {
+  	order: 2;
+  }
+  main 
+  {
+  	order:1;
+  }
+  
+  aside,main  {
+    width: 100%;
+  }
+}
+
+
+
+@media (max-width: 759px) {
+  #figure-one 
+  {
+    width: 100%;
+    height: 200px;
+
+  }
+#figure-two 
+  {
+    width: 100%;
+    height: 200px;
+
+  }
+}
+
+

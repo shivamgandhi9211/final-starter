@@ -1,0 +1,19 @@
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) 
+{
+   #main-content {
+    flex-direction: column;
+  }
+  aside
+  {
+    order: 2;
+  }
+   main
+  {
+    order:1;
+  }
+  
+  aside, main {
+    width: 100%;
+  }
+}
